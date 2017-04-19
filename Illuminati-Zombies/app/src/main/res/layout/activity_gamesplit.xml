@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameactivitysplit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.illuminati_zombies.illuminati_zombies.SplitscreenActivity" >
+
+
+
+    <com.illuminati_zombies.illuminati_zombies.GamePanel
+        android:id="@+id/gamepanel2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        />
+
+    <com.illuminati_zombies.illuminati_zombies.GamePanelJ2
+        android:id="@+id/gamepanelJ2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        />
+
+</LinearLayout>
